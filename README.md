@@ -1,7 +1,3 @@
-from pathlib import Path
-
-# Create a short README.md content
-readme_content = """
 # 📊 Learning NumPy
 
 This repository contains my hands-on practice with **NumPy**, the core library for numerical computing in Python.
@@ -22,8 +18,3 @@ Feel free to explore, try the problems, or contribute!
 **Let’s connect and grow together!** 🚀
 """
 
-# Save to README.md
-readme_path = Path("/mnt/data/README.md")
-readme_path.write_text(readme_content.strip())
-
-readme_path.name
